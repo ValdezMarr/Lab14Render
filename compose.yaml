@@ -1,0 +1,7 @@
+﻿services:
+  lab08-marielvaldez:
+    image: lab08-marielvaldez
+    build:
+      context: .
+      dockerfile: LAB08-MARIELVALDEZ/Dockerfile
+
