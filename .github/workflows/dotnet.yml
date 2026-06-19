@@ -30,4 +30,4 @@ jobs:
     - name: Deploy to server
       # ATENCIÓN: Este paso requiere configuración de llaves SSH (Ver Paso 3)
       run: |
-        scp -r ./published username@server:/path/to/deploy
+        scp -r ./published/* 'ValdezMarr@192.168.1.12:M:\TECSUP\TECSUP CICLO 06\DESARROLLO DE APLICACIONES EMPRESARIALES\LAB08-MARIELVALDEZ'
